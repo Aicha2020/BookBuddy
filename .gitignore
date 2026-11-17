@@ -1,0 +1,25 @@
+# Android Studio / IntelliJ local settings
+.idea/
+*.iml
+local.properties
+
+# Gradle, Kotlin and Android generated files
+.gradle/
+.kotlin/
+**/build/
+build/
+.cxx/
+.externalNativeBuild/
+captures/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated signing keys and secrets (do not commit)
+*.jks
+*.keystore
+*.p12
+*.pem
+.env
+.env.*
